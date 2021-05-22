@@ -4,7 +4,7 @@ A collection of deep learning software developed through the course APS360 - App
 
 This repository includes software for the following tasks:
 1. [Introduction to PyTorch and Neural Networks](Lab_1_PyTorch_and_ANNs)
-2. Classification of Cats and Dogs
+2. [Classification of Cats and Dogs](Lab_2_Cats_vs_Dogs)
 3. Hand Gesture Recognition
 4. Data Imputation
 5. Spam Detection
