@@ -6,5 +6,5 @@ This repository includes software for the following tasks:
 1. [Introduction to PyTorch and Neural Networks](Lab_1_PyTorch_and_ANNs)
 2. [Classification of Cats and Dogs](Lab_2_Cats_vs_Dogs)
 3. [Hand Gesture Recognition](Lab_3_Gesture_Recognition)
-4. Data Imputation
+4. [Data Imputation](Lab_4_Data_Imputation)
 5. Spam Detection
