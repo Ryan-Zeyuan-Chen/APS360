@@ -16106,7 +16106,7 @@ ideal for this problem, but we will use it anyway.)</p>
 <span class="k">def</span> <span class="nf">get_val_loss</span><span class="p">(</span><span class="n">model</span><span class="p">,</span> <span class="n">valid_loader</span><span class="p">,</span> <span class="n">criterion</span><span class="p">):</span>
     <span class="n">total_val_loss</span> <span class="o">=</span> <span class="mf">0.0</span>
     <span class="n">i</span> <span class="o">=</span> <span class="mi">0</span>
-    <span class="k">for</span> <span class="n">data</span> <span class="ow">in</span> <span class="n">train_loader</span><span class="p">:</span>
+    <span class="k">for</span> <span class="n">data</span> <span class="ow">in</span> <span class="n">valid_loader</span><span class="p">:</span>
         <span class="n">datam</span> <span class="o">=</span> <span class="n">zero_out_random_feature</span><span class="p">(</span><span class="n">data</span><span class="o">.</span><span class="n">clone</span><span class="p">())</span> <span class="c1"># zero out one categorical feature</span>
         <span class="n">recon</span> <span class="o">=</span> <span class="n">model</span><span class="p">(</span><span class="n">datam</span><span class="p">)</span>
         <span class="n">loss</span> <span class="o">=</span> <span class="n">criterion</span><span class="p">(</span><span class="n">recon</span><span class="p">,</span> <span class="n">data</span><span class="p">)</span>
